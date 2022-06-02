@@ -8,19 +8,14 @@
 \usepackage{lipsum}
 \usepackage{amsmath}
 \usepackage{multicol}
-%\usepackage[numbers, square]{natbib}
 \usepackage{emptypage}
 \usepackage{csquotes}
 
-\usepackage[square,numbers]{natbib} % use [1] notation
-\bibliographystyle{IEEEtranN} % how biblography is handled
-
-%\usepackage[
-%    backend=biber,
-%    style=ieee,
-%  ]{biblatex}
-
-%\addbibresource{Resources/export-data.bib}
+\usepackage[
+    backend=biber,
+    style=ieee,
+    ]{biblatex}
+\addbibresource{Resources/export-data.bib}
 
 
 % instellingen voor hoofdstuknummering en inhoudstafel
@@ -49,7 +44,7 @@
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
 
-% Hier begint het eigenlijke document
+% Here starts the actual document
 \begin{document}
 % FRONT MATTER
 %\frontmatter
@@ -61,13 +56,16 @@
 \setcounter{tocdepth}{2}
 \pagenumbering{roman}
 
-%\input{Abstract} \clearpage
-%\input{Summary} \cleardoublepage
-%\tableofcontents \cleardoublepage
+\input{Abstract} \clearpage
+\input{Summary} \cleardoublepage
+\tableofcontents \cleardoublepage
 %\addcontentsline{toc}{chapter}{Bibliography}
 % MAIN MATTER
 %\mainmatter
 
+% ----------------------- Eigenlijke thesis -----------------------
+% Vanaf de inleiding/het eerste hoofdstuk.
+% -----------------------------------------------------------------
 \setcounter{page}{0}
 \pagenumbering{arabic}
 
@@ -77,20 +75,12 @@
 
 \clearpage 
 
-%\bibliographystyle{ieee}
-
-%\printbibliography
-\bibliography{Resources/export-data.bib}
+\printbibliography
 
 \cleartoleftpage{} % zorgt dat de achterflap op een even pagina staat
 \input{Rearpage}
 
 
-% ----------------------- Eigenlijke thesis -----------------------
-% Vanaf de inleiding/het eerste hoofdstuk.
-% -----------------------------------------------------------------
-%\setcounter{page}{0}
-%\pagenumbering{arabic}
 
 
 %\newpage

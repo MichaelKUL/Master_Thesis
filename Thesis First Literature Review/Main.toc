@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Abstract}{i}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Summary}{ii}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Literature Review}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{IoT-driven Event Log Generation}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Concept Drift}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Visualization of Compliance Violation}{1}%
