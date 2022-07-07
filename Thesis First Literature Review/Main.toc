@@ -7,6 +7,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Literature Review}{1}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{History of BPM \cite {van_der_aalst_business_2016}}{1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{IoT-driven Event Log Generation}{1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Concept Drift}{1}%
