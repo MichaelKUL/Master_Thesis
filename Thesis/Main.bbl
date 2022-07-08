@@ -1,0 +1,520 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{van_der_aalst_business_2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=45fed513d4bd5fb28cebd7bb58a35c4a}{%
+           family={Aalst},
+           familyi={A\bibinitperiod},
+           given={Wil\bibnamedelimb M.\bibnamedelimi P.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=6c93b851668ff9e0023eaf8c20dde5d3}{%
+           family={La\bibnamedelima Rosa},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef1fde8ff3f66d5425b24b0182735e93}{%
+           family={Santoro},
+           familyi={S\bibinitperiod},
+           given={Flávia\bibnamedelima Maria},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{685636ed239bb7ca9a7f52c1ef24f12c}
+      \strng{fullhash}{685636ed239bb7ca9a7f52c1ef24f12c}
+      \strng{bibnamehash}{685636ed239bb7ca9a7f52c1ef24f12c}
+      \strng{authorbibnamehash}{685636ed239bb7ca9a7f52c1ef24f12c}
+      \strng{authornamehash}{685636ed239bb7ca9a7f52c1ef24f12c}
+      \strng{authorfullhash}{685636ed239bb7ca9a7f52c1ef24f12c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1867-0202}
+      \field{journaltitle}{Business \& Information Systems Engineering}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{1}
+      \field{shortjournal}{Bus Inf Syst Eng}
+      \field{title}{Business Process Management}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{58}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/s12599-015-0409-x
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s12599-015-0409-x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s12599-015-0409-x
+      \endverb
+    \endentry
+    \entry{seiger_towards_2020}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=e3dcf1bd91b6760fa68868c110f2dd1b}{%
+           family={Seiger},
+           familyi={S\bibinitperiod},
+           given={Ronny},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2a5cba0f10e65446870b00e97f0760b6}{%
+           family={Zerbato},
+           familyi={Z\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+        {{hash=52b12c4ca5e8ea7fdecf5757a6eb635b}{%
+           family={Burattin},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f1fa2be41cb9d5aa6f130af37632ca90}{%
+           family={García-Bañuelos},
+           familyi={G\bibinithyphendelim B\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e0543bde0cc228ee5b6158f5238c82b3}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{c420bdda406ae853c7bbd70a5f99548d}
+      \strng{fullhash}{76405cbb4fec1f0fb0e0782cd1be76f4}
+      \strng{bibnamehash}{76405cbb4fec1f0fb0e0782cd1be76f4}
+      \strng{authorbibnamehash}{76405cbb4fec1f0fb0e0782cd1be76f4}
+      \strng{authornamehash}{c420bdda406ae853c7bbd70a5f99548d}
+      \strng{authorfullhash}{76405cbb4fec1f0fb0e0782cd1be76f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Internet of Things ({IoT}) enables software-based access to vast amounts of data streams from sensors measuring physical and virtual properties of smart devices and their surroundings. While sophisticated means for the control and data analysis of single {IoT} devices exist, a more process-oriented view of {IoT} systems is often missing. Such a lack of process awareness hinders the development of process-based systems on top of {IoT} environments and the application of process mining techniques for process analysis and optimization in {IoT}. We propose a framework for the stepwise correlation and composition of raw {IoT} sensor streams with events and activities on a process level based on Complex Event Processing ({CEP}). From this correlation we derive refined process event logs-possibly with ambiguities-that can be used for process analysis at runtime (i. e., online). We discuss the framework using examples from a smart factory.}
+      \field{booktitle}{2020 {IEEE} 24th International Enterprise Distributed Object Computing Workshop ({EDOCW})}
+      \field{eventtitle}{2020 {IEEE} 24th International Enterprise Distributed Object Computing Workshop ({EDOCW})}
+      \field{month}{10}
+      \field{note}{{ISSN}: 2325-6605}
+      \field{title}{Towards {IoT}-driven Process Event Log Generation for Conformance Checking in Smart Factories}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{20\bibrangedash 26}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/EDOCW49879.2020.00016
+      \endverb
+      \keyw{Complex Event Processing,Conformance Checking,Correlation,Grippers,Intelligent sensors,Internet of Things,Process Mining,Production,Sensors,Smart Factories,Smart manufacturing}
+    \endentry
+    \entry{meroni_multi-party_2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5359f9cb19251cc6e3aa7b0cae19c864}{%
+           family={Meroni},
+           familyi={M\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f3b494be90f755f8335a03d6bc05c67c}{%
+           family={Baresi},
+           familyi={B\bibinitperiod},
+           given={Luciano},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ac9047c930ae68283985c099649299eb}{%
+           family={Montali},
+           familyi={M\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8ac4c85cf73158f6662cd8b64f5d1824}{%
+           family={Plebani},
+           familyi={P\bibinitperiod},
+           given={Pierluigi},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{723ea1649eab98cbe5d8cf336da19457}
+      \strng{fullhash}{b9567bb2861ef230c42eb710fd574325}
+      \strng{bibnamehash}{b9567bb2861ef230c42eb710fd574325}
+      \strng{authorbibnamehash}{b9567bb2861ef230c42eb710fd574325}
+      \strng{authornamehash}{723ea1649eab98cbe5d8cf336da19457}
+      \strng{authorfullhash}{b9567bb2861ef230c42eb710fd574325}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Monitoring the compliance of the execution of multi-party business processes is a complex and challenging task: each actor only has the visibility of the portion of the process under its direct control, and the physical objects that belong to a party are often manipulated by other parties. Because of that, there is no guarantee that the process will be executed — and the objects be manipulated — as previously agreed by the parties. The problem is usually addressed through a centralized monitoring entity that collects information, sent by the involved parties, on when activities are executed and the artifacts are altered. This paper aims to tackle the problem in a different and innovative way: it proposes a decentralized solution based on the switch from control- to artifact-based monitoring, where the physical objects can monitor their own conditions and the activities in which they participate. To do so, the Internet of Things ({IoT}) paradigm is exploited by equipping physical objects with sensing hardware and software, turning them into smart objects. To instruct these smart objects, an approach to translate classical Business Process Model and Notation ({BPMN}) process models into a set of artifact-centric process models, rendered in Extended-{GSM} (E-{GSM}) (our extension of the Guard-Stage-Milestone ({GSM}) notation), is proposed. The paper presents the approach, based on model-based transformation, demonstrates its soundness and correctness, and introduces a prototype monitoring platform to assess and experiment the proposed solution. A simple case study in the domain of advanced logistics is used throughout the paper to exemplify the different parts of the proposal.}
+      \field{day}{1}
+      \field{issn}{0306-4379}
+      \field{journaltitle}{Information Systems}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{Information Systems}
+      \field{title}{Multi-party business process compliance monitoring through {IoT}-enabled artifacts}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{73}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{61\bibrangedash 78}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.is.2017.12.009
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0306437917301242
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0306437917301242
+      \endverb
+      \keyw{Artifact-centric languages,Business process compliance,Business process model transformation,Declarative languages,E-{GSM},Guard-Stage-Milestone,Internet of things,Runtime compliance monitoring}
+    \endentry
+    \entry{desai_issue_2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ad2f48196083e2b87c215d6eb6670cc2}{%
+           family={Desai},
+           familyi={D\bibinitperiod},
+           given={Rishabh\bibnamedelimb Bhargava\bibnamedelimb \{and\}\bibnamedelima Nihit},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim \\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad2f48196083e2b87c215d6eb6670cc2}
+      \strng{fullhash}{ad2f48196083e2b87c215d6eb6670cc2}
+      \strng{bibnamehash}{ad2f48196083e2b87c215d6eb6670cc2}
+      \strng{authorbibnamehash}{ad2f48196083e2b87c215d6eb6670cc2}
+      \strng{authornamehash}{ad2f48196083e2b87c215d6eb6670cc2}
+      \strng{authorfullhash}{ad2f48196083e2b87c215d6eb6670cc2}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Welcome to the 26th issue of the {MLOps} newsletter. In this issue, we deep-dive into inferring concept drift, share a paper on outlier detection using self-supervised learning, discuss {NLP} applications to summarize legal documents, cover a recent article about customization in B2B {ML} applications, and more.}
+      \field{day}{7}
+      \field{month}{9}
+      \field{shorttitle}{Issue \#26}
+      \field{title}{Issue \#26: Concept Drift. Anomaly Detection with Self-Supervision. {NLP} in Legal Applications. Models Per Customer?}
+      \field{titleaddon}{Machine Learning Ops Roundup}
+      \field{type}{Substack newsletter}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://mlopsroundup.substack.com/p/issue-26-concept-drift-anomaly-detection
+      \endverb
+      \verb{url}
+      \verb https://mlopsroundup.substack.com/p/issue-26-concept-drift-anomaly-detection
+      \endverb
+    \endentry
+    \entry{van_der_aalst_conformance_2016}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=85ebc8e652a14d6b884569af106c5ed9}{%
+           family={Aalst},
+           familyi={A\bibinitperiod},
+           given={Wil},
+           giveni={W\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=85ebc8e652a14d6b884569af106c5ed9}{%
+           family={Aalst},
+           familyi={A\bibinitperiod},
+           given={Wil},
+           giveni={W\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{85ebc8e652a14d6b884569af106c5ed9}
+      \strng{fullhash}{85ebc8e652a14d6b884569af106c5ed9}
+      \strng{bibnamehash}{85ebc8e652a14d6b884569af106c5ed9}
+      \strng{authorbibnamehash}{85ebc8e652a14d6b884569af106c5ed9}
+      \strng{authornamehash}{85ebc8e652a14d6b884569af106c5ed9}
+      \strng{authorfullhash}{85ebc8e652a14d6b884569af106c5ed9}
+      \strng{editorbibnamehash}{85ebc8e652a14d6b884569af106c5ed9}
+      \strng{editornamehash}{85ebc8e652a14d6b884569af106c5ed9}
+      \strng{editorfullhash}{85ebc8e652a14d6b884569af106c5ed9}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{After covering control-flow discovery in depth in Part {III}, this chapter looks at the situation in which both a process model and an event log are given. The model may have been constructed by hand or may have been discovered. Moreover, the model may be normative or descriptive. Conformance checking relates events in the event log to activities in the process model and compares both. The goal is to find commonalities and discrepancies between the modeled behavior and the observed behavior. Conformance checking is relevant for business alignment and auditing. For example, the event log can be replayed on top of the process model to find undesirable deviations suggesting fraud or inefficiencies. Moreover, conformance checking techniques can also be used for measuring the performance of process discovery algorithms and to repair models that are not aligned well with reality.}
+      \field{booktitle}{Process Mining: Data Science in Action}
+      \field{isbn}{9783662498514}
+      \field{langid}{english}
+      \field{title}{Conformance Checking}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{243\bibrangedash 274}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1007/978-3-662-49851-4\_8
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-662-49851-4\_8
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-662-49851-4%5C_8
+      \endverb
+      \keyw{Concept Drift,Conformance Check,Linear Temporal Logic,Optimal Alignment,Synchronous Move}
+    \endentry
+    \entry{bose_handling_2011}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=9ccf86355cec3ada9efaf35c9864668b}{%
+           family={Bose},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi P.\bibnamedelimi Jagadeesh\bibnamedelima Chandra},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=45fed513d4bd5fb28cebd7bb58a35c4a}{%
+           family={Aalst},
+           familyi={A\bibinitperiod},
+           given={Wil\bibnamedelimb M.\bibnamedelimi P.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=56534dec9cf5897497e2925fa379194c}{%
+           family={Žliobaitė},
+           familyi={Ž\bibinitperiod},
+           given={Indrė},
+           giveni={I\bibinitperiod}}}%
+        {{hash=8e2774559888845d8e0e20be5a4dd907}{%
+           family={Pechenizkiy},
+           familyi={P\bibinitperiod},
+           given={Mykola},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=d01efbf1936db18ed11c9c34a435b48b}{%
+           family={Mouratidis},
+           familyi={M\bibinitperiod},
+           given={Haralambos},
+           giveni={H\bibinitperiod}}}%
+        {{hash=35e635a69b3c077054b2ada16cc67506}{%
+           family={Rolland},
+           familyi={R\bibinitperiod},
+           given={Colette},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{21f38da888df14e1d44b6328ca35da2b}
+      \strng{fullhash}{bae6bb2568f561b3b5941c161b7e788f}
+      \strng{bibnamehash}{bae6bb2568f561b3b5941c161b7e788f}
+      \strng{authorbibnamehash}{bae6bb2568f561b3b5941c161b7e788f}
+      \strng{authornamehash}{21f38da888df14e1d44b6328ca35da2b}
+      \strng{authorfullhash}{bae6bb2568f561b3b5941c161b7e788f}
+      \strng{editorbibnamehash}{78969e3bd0922c06cd9ab8b338210474}
+      \strng{editornamehash}{78969e3bd0922c06cd9ab8b338210474}
+      \strng{editorfullhash}{78969e3bd0922c06cd9ab8b338210474}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Operational processes need to change to adapt to changing circumstances, e.g., new legislation, extreme variations in supply and demand, seasonal effects, etc. While the topic of flexibility is well-researched in the {BPM} domain, contemporary process mining approaches assume the process to be in steady state. When discovering a process model from event logs, it is assumed that the process at the beginning of the recorded period is the same as the process at the end of the recorded period. Obviously, this is often not the case due to the phenomenon known as concept drift. While cases are being handled, the process itself may be changing. This paper presents an approach to analyze such second-order dynamics. The approach has been implemented in {ProM} and evaluated by analyzing an evolving process.}
+      \field{booktitle}{Advanced Information Systems Engineering}
+      \field{isbn}{9783642216404}
+      \field{langid}{english}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{Handling Concept Drift in Process Mining}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{391\bibrangedash 405}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-642-21640-4\_30
+      \endverb
+      \keyw{change patterns,concept drift,flexibility,process mining}
+    \endentry
+    \entry{zheng_detecting_2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=91cd75aeb4b84e7a7718923693f709ad}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Canbin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4423209807acf3e8956fa4bb6406472a}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Lijie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5677a530ed74bcd73cbf45f8088a8418}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jianmin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{7}{}{%
+        {{hash=31b3c79508059b5b2508ea4182e2d3bf}{%
+           family={Panetto},
+           familyi={P\bibinitperiod},
+           given={Hervé},
+           giveni={H\bibinitperiod}}}%
+        {{hash=60b320d29445757595bfc1c093a3b3e8}{%
+           family={Debruyne},
+           familyi={D\bibinitperiod},
+           given={Christophe},
+           giveni={C\bibinitperiod}}}%
+        {{hash=47b3c8046cdbdc45e1ed031df378f657}{%
+           family={Gaaloul},
+           familyi={G\bibinitperiod},
+           given={Walid},
+           giveni={W\bibinitperiod}}}%
+        {{hash=042879538ddedd10b59620089b1808aa}{%
+           family={Papazoglou},
+           familyi={P\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d12c3ac18bc495ad34b0fd1da5c92548}{%
+           family={Paschke},
+           familyi={P\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e908d0e85d9d0945a6a29cd47b0f4add}{%
+           family={Ardagna},
+           familyi={A\bibinitperiod},
+           given={Claudio\bibnamedelima Agostino},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6b837cda52ad149715262c940fe24eb3}{%
+           family={Meersman},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{4b5064d7e351df9e1ee64ff41570e873}
+      \strng{fullhash}{4b5064d7e351df9e1ee64ff41570e873}
+      \strng{bibnamehash}{4b5064d7e351df9e1ee64ff41570e873}
+      \strng{authorbibnamehash}{4b5064d7e351df9e1ee64ff41570e873}
+      \strng{authornamehash}{4b5064d7e351df9e1ee64ff41570e873}
+      \strng{authorfullhash}{4b5064d7e351df9e1ee64ff41570e873}
+      \strng{editorbibnamehash}{121179217ba68d7756fe3c76e9bdec4f}
+      \strng{editornamehash}{66f993c2a695493d7351aecd66465b6b}
+      \strng{editorfullhash}{121179217ba68d7756fe3c76e9bdec4f}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Traditional process discovery algorithms assume processes to be in a steady state. However, process models tend to be dynamic due to various factors, which has brought challenges such as change point detection, change localization and change process discovery. Existing techniques to identify change points are sensitive to parameters and the accuracy is not satisfactory. This paper proposes a novel approach to deal with such concept drift phenomenon. Event logs can be characterized by the relationships between activities, which motivates us to transform a log into a relation matrix. By detecting the always and never intervals in each row of the relation matrix, we obtain candidate change points for each relation. Finally, all the candidate change points are combined into an overall result. The approach is also able to localize the changes between different phases. Experiments on synthetic logs show that our approach is accurate and performs better than the state of the art in detecting sudden drift.}
+      \field{booktitle}{On the Move to Meaningful Internet Systems. {OTM} 2017 Conferences}
+      \field{isbn}{9783319694627}
+      \field{langid}{english}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{Detecting Process Concept Drifts from Event Logs}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{524\bibrangedash 542}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/978-3-319-69462-7\_33
+      \endverb
+      \keyw{Change detection,Concept drift,Process discovery,Process mining}
+    \endentry
+    \entry{awad_visualization_2010}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=68cf975074547d26dfad50556fc3324c}{%
+           family={Awad},
+           familyi={A\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=25208824fbaeae605dbc7ab6341aa4e3}{%
+           family={Weske},
+           familyi={W\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=bac8ca27b2681a0f11d06be2230a65a4}{%
+           family={Rinderle-Ma},
+           familyi={R\bibinithyphendelim M\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=222501238207dd66ffbcb80ba1fca43b}{%
+           family={Sadiq},
+           familyi={S\bibinitperiod},
+           given={Shazia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=415e2bec5763afbeeeadd2e0c4bd0696}{%
+           family={Leymann},
+           familyi={L\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{654489699c25cde6724c1554ea027e53}
+      \strng{fullhash}{654489699c25cde6724c1554ea027e53}
+      \strng{bibnamehash}{654489699c25cde6724c1554ea027e53}
+      \strng{authorbibnamehash}{654489699c25cde6724c1554ea027e53}
+      \strng{authornamehash}{654489699c25cde6724c1554ea027e53}
+      \strng{authorfullhash}{654489699c25cde6724c1554ea027e53}
+      \strng{editorbibnamehash}{9130960802adcac398fe9e3c9ce68e96}
+      \strng{editornamehash}{9130960802adcac398fe9e3c9ce68e96}
+      \strng{editorfullhash}{9130960802adcac398fe9e3c9ce68e96}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Checking for compliance is of major importance in nowadays business. Several approaches have been proposed to address different aspects of compliance checking. One of the important aspects of compliance checking is to ensure that business activities will be executed in a certain order. In a previous work, we have presented a formal approach for efficient compliance checking based on model checking technology. A limitation of that approach and of similar approaches is the lack of explanation about how violations could occur. In this paper we resolve this limitation by exploiting the notion of patterns/anti patterns. Execution ordering compliance rules are expressed as {BPMN}-Q queries. For each query a set of anti pattern queries is automatically derived and checked against process models as well. When a violation (an anti pattern) finds a match, the violating part of the process is shown to the user.}
+      \field{booktitle}{Business Process Management Workshops}
+      \field{isbn}{9783642121869}
+      \field{langid}{english}
+      \field{series}{Lecture Notes in Business Information Processing}
+      \field{title}{Visualization of Compliance Violation in Business Process Models}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{182\bibrangedash 193}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/978-3-642-12186-9\_17
+      \endverb
+      \keyw{Business Process,Business Process Model,Compliance Check,Model Check,Pattern Query}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

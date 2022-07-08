@@ -1,0 +1,90 @@
+\RequirePackage{fix-cm}
+\documentclass[12pt,a4paper,twoside]{article}
+
+% useful packages
+\usepackage[english]{babel}
+\usepackage{graphicx,xcolor,textpos}
+\usepackage{helvet}
+\usepackage{lipsum}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{emptypage}
+\usepackage{csquotes}
+
+\usepackage[
+    backend=biber,
+    style=ieee,
+    ]{biblatex}
+\addbibresource{Resources/export-data.bib}
+
+
+% instellingen voor hoofdstuknummering en inhoudstafel
+\setcounter{secnumdepth}{1} % nummering tot welk subniveau?
+\setcounter{tocdepth}{1} % Hoe diep moet onze table of contents (toc)  gaan?
+
+\newcommand*\cleartoleftpage{%
+  \clearpage
+  \ifodd\value{page}\hbox{}\newpage\fi
+}
+
+% pagina-instellingen
+\topmargin -10mm
+\textwidth 160truemm
+\textheight 240truemm
+\oddsidemargin 0mm
+\evensidemargin 0mm
+
+% kleuren definiëren
+\definecolor{blue}{RGB}{56,140,180}         % #38 8C B4
+\definecolor{bluetitle}{RGB}{29,141,176}
+\definecolor{blueaff}{RGB}{0,0,128}
+\definecolor{blueline}{RGB}{82,189,236}
+
+% define units for the text blocks
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+
+% Here starts the actual document
+\begin{document}
+% FRONT MATTER
+%\frontmatter
+\input{Frontpage} \cleardoublepage 
+
+%\rmfamily
+
+\setcounter{page}{0}
+\setcounter{tocdepth}{2}
+\pagenumbering{roman}
+
+\include{Chapters/Abstract} % \clearpage
+\include{Chapters/Summary} % \cleardoublepage
+\tableofcontents \cleardoublepage
+%\addcontentsline{toc}{chapter}{Bibliography}
+% MAIN MATTER
+%\mainmatter
+
+% ----------------------- Eigenlijke thesis -----------------------
+% Vanaf de inleiding/het eerste hoofdstuk.
+% -----------------------------------------------------------------
+\setcounter{page}{0}
+\pagenumbering{arabic}
+
+\include{Chapters/Lit_Review}
+
+% BACK MATTER
+
+\clearpage 
+
+\printbibliography
+
+\cleartoleftpage{} % zorgt dat de achterflap op een even pagina staat
+\input{Rearpage}
+
+
+
+
+%\newpage
+
+
+
+\end{document}
